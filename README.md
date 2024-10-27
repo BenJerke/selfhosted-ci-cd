@@ -11,7 +11,7 @@
     - Use this password to create your admin user and unlock the server for usage.
 4. Do Stuff
     - Use the Gitea container as an upstream for your projects. 
-    - Set up pipelines on the Jenkins server that point to your Gitea repos. 
+    - Set up pipelines on the Jenkins server that point to your Gitea repos. Or don't - it'll work with pretty much any other Git provider just fine. 
     - When defining branch sources on the Jenkins container, use the Gitea container's service name + internal port (e.g. 'http://gitea:3000/repo') This is somewhat annoying as it doesn't match the clone URL, but it works. 
     
 This can run on your local Docker installation, and you can run it on a remote host without too much effort. The services will be exposed to hosts on the Docker host's network.
