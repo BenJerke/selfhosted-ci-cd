@@ -1,0 +1,3 @@
+gitea/
+jenkins_home/
+# adding these in case I use a fork of this repo with local volumes in the future for some reason
